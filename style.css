@@ -1,0 +1,93 @@
+html { 
+  background: url(http://www.kellylougheed.com/images/backgrounds/books.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  background-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1, h6 {
+  color: #ffffff;
+  text-transform: lowercase;
+  margin: 0;
+}
+
+div.quote {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 80%;
+  left: 10%;
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ff9900;
+  color: #ffffff;
+  font-size: 1.5em;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.left {
+  text-align: left;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+button, a#tweet {
+  background-color: #ffffff;
+  color: #ff9900;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+}
+
+button:hover, a#tweet:hover {
+  background-color: #ff9900;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+a#tweet {
+  float: right;
+  padding: 5px 10px 5px 10px;
+  margin-left: 20px;
+  font-size: 1.25em;
+  border-radius: 5px;
+}
+
+#newQuote {
+  font-size: .75em;
+  width: 200px;
+  padding: 10px;
+}
+
+/********** Medium devices **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  div.container {
+    top: 100px;
+    transform: none;
+  }
+}
+
+/********** Small devices **********/
+@media (max-width: 767px) {
+
+  div.quote {
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  }
