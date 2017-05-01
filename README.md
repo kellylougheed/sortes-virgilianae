@@ -4,6 +4,8 @@ This app was written with JavaScript, jQuery, HTML, and CSS.
 
 The app randomly generates quotes from Vergil's Aeneid which are thought to be prophetic to the user.
 
+<img src="http://www.kellylougheed.com/images/projects/sortesvirgilianae.png"/>
+
 ## Features:
 
 Aeneid API supplies random lines from Vergil's Aeneid.
